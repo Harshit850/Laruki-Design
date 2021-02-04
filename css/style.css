@@ -138,57 +138,26 @@ img {
   -ms-transform: skewY(-3deg);
 }
 
-/* utilities */
-.container {
-  max-width: 110rem;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 4rem;
-}
-
-.card {
+.stats {
+  padding-top: 10rem;
   color: #333;
-  background-color: #fff;
-  border-radius: 1rem;
-  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
-  padding: 2rem;
-  margin: 1rem;
 }
 
-.btn {
-  display: inline-block;
-  padding: 1rem 3rem;
-  cursor: pointer;
-  background-color: #047aed;
-  color: #fff;
-  border: none;
-  border-radius: 0.5rem;
-  /* text-transform: uppercase; */
+.stats-heading {
+  max-width: 500rem;
+  margin: auto;
 }
 
-.btn-outline {
-  background-color: transparent;
-  border: 1px solid #fff;
+.stats .grid h3 {
+  font-size: 3.5rem;
 }
 
-.btn:hover {
-  transition: 0.3s;
-  transform: scale(0.96);
+.stats .grid p {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  overflow: hidden;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.stats .container h3 {
+  font-size: 2.6rem;
+  font-weight: 400;
 }
