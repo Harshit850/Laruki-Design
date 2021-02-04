@@ -161,3 +161,40 @@ img {
   font-size: 2.6rem;
   font-weight: 400;
 }
+
+/* CLI */
+.cli .grid {
+  font-size: 1.6rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* Cloud section */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
+/* languages */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  margin: 1.8rem 1rem 4rem;
+}
+
+.languages .card h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}

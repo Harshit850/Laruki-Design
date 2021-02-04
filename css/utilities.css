@@ -32,9 +32,54 @@
   border: 1px solid #fff;
 }
 
+.btn-outline:hover {
+  transition: 0.2s;
+  background-color: #fff;
+  color: #047aed;
+  border: 1px solid #047aed;
+}
+
+/* Background and coloured buttons */
+.bg-primary, .btn-primary {
+  background-color: #047aed;
+  color: #fff;
+}
+
+.bg-secondary, .btn-secondary {
+  background-color: #1c3fa8;
+  color: #fff;
+}
+
+.bg-dark, .btn-dark {
+  background-color: #002240;
+  color: #fff;
+}
+
+.bg-light, .btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
 .btn:hover {
   transition: 0.3s;
   transform: scale(0.96);
+}
+
+/* Text sizes */
+.lead {
+  font-size: 2rem;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 4rem;
 }
 
 .text-center {
