@@ -170,8 +170,8 @@ img {
 }
 
 .cli .grid > *:first-child {
-  grid-column: 1;
-  grid-row: 1;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
 }
 
 /* Cloud section */
