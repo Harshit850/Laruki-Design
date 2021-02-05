@@ -91,6 +91,10 @@
   font-size: 4rem;
 }
 
+.xl {
+  font-size: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
