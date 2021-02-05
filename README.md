@@ -5,4 +5,4 @@ A beautiful front end design for cloud hosting website.
 A design that is ready to be used for startups and businesses. All features are not working as this is simply a front end design.
 
 ## Check out the website here
-You can see the website in action here : <img src="https://adoring-nightingale-11c978.netlify.app/" alt="">
+You can see the website in action here : https://adoring-nightingale-11c978.netlify.app/
